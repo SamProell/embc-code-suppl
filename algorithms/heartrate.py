@@ -1,7 +1,5 @@
 
 import numpy as np
-import pandas as pd
-from sklearn.utils.validation import check_consistent_length
 
 
 def heartrate_from_indices(indices, f, max_std_seconds=float("inf"),
